@@ -75,7 +75,6 @@ f''(x) &= \frac{48\left(-3x^2-16\right)}{\left(x^2-16\right)^3}
 $$
 
 
-
 ```functionplot
 ---
 title: 2024-09-25 2.
