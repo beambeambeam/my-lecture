@@ -6,7 +6,7 @@ cssclasses:
   - pen-white
 date: 2024-09-24
 ---
-2024-09-25
+2024-09-24
 CB2607
 
 
@@ -52,20 +52,20 @@ $x=2.732, -0.732$
 | $(1+\sqrt{ 3 },\infty)$   |        | -       | +        | ฟังก์ชั่นลด โค้งหงาย    |
 |                           |        |         |          |                         |
 
-
 ```functionplot
 ---
 title: 2024-09-25 1.
 xLabel: x
 yLabel: y
 bounds: [-10,10,-10,10]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
 y=x^4-4x^3+8x-2
 ```
 
 2. $f(x)=\frac{2x^2-8}{x^2-16}$
+
 $$
 \begin{aligned}
 f(x) &= \frac{2x^2-8}{x^2-16} \\
@@ -74,13 +74,15 @@ f''(x) &= \frac{48\left(-3x^2-16\right)}{\left(x^2-16\right)^3}
 \end{aligned}
 $$
 
+
+
 ```functionplot
 ---
 title: 2024-09-25 2.
 xLabel: x
 yLabel: y
 bounds: [-10,10,-10,10]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
 x=(2x^2-8)/(x^2-16)
@@ -95,7 +97,6 @@ $$
 f(x)&=\frac{2x^2-8}{x^2-16}\\
 \end{aligned}
 $$
-
 $x=2,x=-2$
 
 $y$ when x = 0
@@ -135,4 +136,6 @@ $$
 &= 2
 \end{aligned}
 $$
+
 เส้นตรง $y=2$ เป็นเส้นกำกับแนวนอน
+
