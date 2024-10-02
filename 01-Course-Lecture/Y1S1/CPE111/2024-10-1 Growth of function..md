@@ -46,7 +46,8 @@ $$
 $$
 \begin{align}
 3x^2+25 & \leq 3x^2+25x^2 \text{ if } 0<x<1 \\
- 3x^2+25  & \leq |28x^2|, x>1 \\
+ 3x^2+25  & \leq |28x^2|, x>1 \\ \\
+|Cx^2| \\
 C=28  & ,k=1
 \end{align}
 $$

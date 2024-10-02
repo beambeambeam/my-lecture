@@ -24,6 +24,7 @@ $$
 | $z=\sqrt{ y-x^2 }$ | $y\geq x^2$ | $[0,\infty)$                |
 | $w=\frac{1}{xy}$   | $xy\neq 0$  | $(-\infty,0)\cup(0,\infty)$ |
 | $z=\sin xy$        | $x,y \in R$ | $[-1,1]$                    |
+|                    |             |                             |
 
 $$
 w=f(x,y,z)
@@ -52,4 +53,9 @@ where every x,y,z make w $\in$ R
 
 สมการที่มี $x,y,z$ มี degree เท่ากับ 1 เป็นระนาบ
 สำคัญที่สุด คือ จุดตัดแกน $x,y,z$
+
+### พร็อต 3 มิติ
+
+$z=4-x^2$
+![[Screenshot 2567-10-02 at 09.47.18.png]]
 
