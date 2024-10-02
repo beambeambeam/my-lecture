@@ -102,7 +102,6 @@ $$
 |       | $\sqrt{ n }$ |
 |       | $\log n$     |
 |       | c            |
-|       |              |
 
 ![[Screenshot 2567-10-01 at 22.10.12.png]]
 
@@ -123,6 +122,7 @@ $$
 C=2\log(x)+3,k=1
 \end{align}
 $$
+
 
 
 ```functionplot
