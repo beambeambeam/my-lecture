@@ -107,11 +107,55 @@ $$\begin{align}
  & > \frac{k+1}{\sqrt{ k+1 }}, \because  \sqrt{ k^2+k } > k, k\geq 2 \\
  & >\sqrt{ k+1 }
 \end{align}$$
+$$\begin{align}
+\frac{1}{\sqrt{ 1 }}+\frac{1}{\sqrt{ 2 }}+\frac{1}{\sqrt{ 3 }}+\dots+\frac{1}{\sqrt{ k }}+\frac{1}{\sqrt{ k+1 }} & >\sqrt{ k } +\frac{1}{\sqrt{ k+1 }},k\geq 2 \\
+ & >\sqrt{ k }+\frac{1}{2\sqrt{ k }}\times 1 \because \frac{1}{2\sqrt{ k }} < \frac{1}{\sqrt{ k+1 }} \text{ 1 คือส่วนต่างของ k+1 กับ k} \\
+ & > \sqrt{ k+1 } \because \text{การประมาณค่าเชิงเส้น}
+\end{align}$$
 
 5. P(n)เป็นจริงเมื่อ $n\geq2$
 
-# 5.
+# 4.
 
+$$
+1+nh\leq (1+h)^n, h>-1,n\geq 0
+$$
+
+1. P(n)
+$$
+1+nh\leq (1+h)^n, h>-1,n\geq 0
+$$
+2. Basis step
+$$
+\begin{align}
+1+(0)h & \leq (1+h)^0 \\
+1 & \leq 1
+\end{align}
+$$
+P(n) เป็นจริงเมื่อ P(0)
+3. P(k)
+$$
+\begin{align}
+1+kh\leq (1+h)^k,
+\end{align}
+$$
+RHS
+$$
+1+(k+1)h \leq (1+h)^{k+1}
+$$
+4. P(k+1)
+$$
+\begin{align}
+(1+h)^k(1+h) & =(1+kh)(1+h) \\
+ & =1+h+kh+kh^2 \\
+ & =1+h(1+k)+kh \\
+ & \geq 1+h(1+k), kh^2\geq 0, h\geq 0, h>-1
+\end{align}
+$$
+5. สรุป
+$\therefore$ P(n) เป็นจริงเมื่อ$, h>-1,n\geq 0$
+
+# 5.
 $$
 \begin{align}
 21|4^{n+1} & +5^{2n-1}, n\in Z^+ \\
@@ -142,7 +186,7 @@ RHS หา 24($\Box$)
 แทน k+1 ลงใน n
 $$
 \begin{align}
- & = 4^{k+1}+5^{2(k+1)-1} \\
+ & = 4^{k+1+1}+5^{2(k+1)-1} \\
  & =4(4^{k+1})+5^{2k+1} \\
  & =4(21m-5^{2k-1})+25+5^{2k-1} \\
  & =4\times 21m-4\times 5^{2k-1} + 25+5^{2k-1} \\
