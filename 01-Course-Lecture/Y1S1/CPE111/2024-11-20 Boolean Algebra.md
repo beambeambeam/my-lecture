@@ -7,7 +7,6 @@ cssclasses:
 date: 2024-09-24
 ---
 2024-11-20
-
 # Boolean Algebra
 
 1. Boolean Functions.

@@ -19,12 +19,6 @@ output → b1,b2
 |  2  |    0    |    1    |    0    |    0    | 0       | 0       |
 |  3  |    0    |    1    |    0    |    1    | 0       | 1       |
 
-
-$$
-\begin{align}
-B_{1} & = \bar{A_{1}}A_{2}\bar{A_{3}}\bar{A_{4}}
-\end{align}
-$$
 $$
 \begin{align}
 B_{2} & =\bar{A_{1}}\bar{A_{2}}\bar{A_{3}}A_{4}+\bar{A_{1}}A_{2}\bar{A_{3}}A_{4} \\
