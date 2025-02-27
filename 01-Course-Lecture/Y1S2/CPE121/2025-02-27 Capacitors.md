@@ -233,16 +233,16 @@ i_{1}=-3A, i_{2}=-2.5A
 $$
 
 $$
-R_{eq}=\frac{V_{0}}{i_{3}}
+R_{eq}=\frac{V_{0}}{i_{3}}=\frac{1}{3}
 $$
 
 - หา $\tau$
 $$
-\frac{L}{R} = \frac{0.5}{\frac{1}{3}}=15
+\frac{L}{R} = \frac{0.5}{\frac{1}{3}}=1.5
 $$
 - หา I(t)
 $$
-=10A\times e^{-t/15}
+=10A\times e^{-t/1.5}
 $$
 
 - หา $I_{x}(t)$
@@ -252,8 +252,14 @@ $$
 $$
 \begin{align}
 V_{ab}(t) & =L \frac{d}{dt} i(t) \\
- & = 0.5 \frac{d}{dt} 10 e^\left( -\frac{t}{15} \right) \\
- & = \frac{1}{5}10  e^{-t/15}
+ & = 0.5 \frac{d}{dt} 10 e^\left( -\frac{t}{1.5} \right) \\
+ & = 0.5 \frac{1}{1.5} e^{-t/1.5}
 \end{align}
 $$
 
+$$
+\begin{align}
+I_{x}(t) & = - \frac{1}{2} \frac{10}{3} e^{-t/1.5} \\
+ & = - \frac{5}{3}e^{-t/1.5}
+\end{align}
+$$
