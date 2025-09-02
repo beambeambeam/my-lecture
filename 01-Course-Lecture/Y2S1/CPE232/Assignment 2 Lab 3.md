@@ -6,8 +6,7 @@ cssclasses:
 date: 2024-09-24
 ---
 
-# 202509021343 Assignment 2 Lab 2
-
+# Assignment 2 Lab 3
 
 # 1.
 ![[Pasted image 20250902134352.png]]
