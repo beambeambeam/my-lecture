@@ -33,6 +33,8 @@ F_{1}=\overline{C}+A\overline{B}\overline{C}  & &  \sim(\overline{\overline{\ove
 \end{align}
 $$
 
+![[Pasted image 20250903235856.png]]
+
 ## 1.2 $F_2(A, B, C, D) = (3, 5, 7, 8, 10, 11, 13, 15)$
 
 $$ F_2 = \overline{A}\overline{B}CD + \overline{A}B\overline{C}D + \overline{A}BCD + A\overline{B}\overline{C}\overline{D} + A\overline{B}C\overline{D} + A\overline{B}CD + AB\overline{C}D + ABCD $$
@@ -54,6 +56,8 @@ F_{2}=BD+CD+A \overline{B} \overline{D} &  & \sim \overline{\overline{BD+CD+A \o
  &  & \sim \overline{\overline{BD} \cdot \overline{CD} \cdot \overline{A \overline{BD}}}
 \end{align}
 $$
+
+![[Pasted image 20250903235844.png]]
 
 # 2.
 
@@ -143,3 +147,4 @@ $$
 \end{array}
 $$
 
+![[Pasted image 20250903235825.png]]
